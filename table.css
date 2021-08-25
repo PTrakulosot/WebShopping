@@ -1,0 +1,50 @@
+/* table.blueTable {
+    border: 4px solid lightblue;
+    background-color: lightblue;
+    border-radius: 10px;
+} */
+table.blueTableTop tr {
+    border: 1px solid #0064ce;
+    background-color: #0064ce;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    width: 98%;
+    margin: 10px;
+}
+
+table.blueTableTop td {
+    width: 95%;
+}
+
+table.whiteTable tr {
+    border: 1px solid #d5d5d5;
+    background-color: #fafcff;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    width: 98%;
+    margin: 10px;
+}
+
+table.whiteTable td {
+    width: 95%;
+}
+
+table.blueTableBot tr {
+    border: 1px solid #0064ce;
+    background-color: #0064ce;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    width: 98%;
+    margin: 10px;
+}
+
+table.blueTableBot td {
+    width: 95%;
+}

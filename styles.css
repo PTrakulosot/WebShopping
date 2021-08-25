@@ -1,0 +1,78 @@
+body {
+    background-color: whitesmoke;
+    font-family: 'Prompt', sans-serif !important;
+}
+
+nav {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+li {
+    font-size: 24px;
+    background-color: transparent;
+    color: inherit;
+}
+
+.discount {
+    top: 29px;
+    right: 0;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: .875rem;
+    position: absolute;
+    margin-top: 0;
+    vertical-align: top;
+    display: inline-flex;
+    padding: .25rem .375rem;
+    background-image: linear-gradient(#FF9900, #FF0000);
+    transform: translateY(-100%);
+    border-bottom-left-radius: 8px;
+}
+
+.ori-price {
+    color: #898989;
+    padding-top: .4rem;
+    font-size: .75rem;
+    display: inline-block;
+    text-decoration: line-through;
+}
+
+.dis-price {
+    color: #ff1a31;
+    font-weight: 600;
+    vertical-align: top;
+    font-size: 1.1rem;
+    display: inline-flex;
+    align-items: flex-end;
+}
+
+.price {
+    color: #009933;
+    font-weight: 600;
+    vertical-align: top;
+    font-size: 1.1rem;
+    display: inline-flex;
+    align-items: flex-end;
+    margin-bottom: 5px;
+}
+
+span {
+    font-size: 16px;
+    background-color: transparent;
+    color: inherit;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.wrapper {
+    width: 350px;
+    padding: 20px;
+}
+
+.aaa {
+    width: 350px;
+    padding: 6.5px;
+    margin-top: 1pc;
+}
